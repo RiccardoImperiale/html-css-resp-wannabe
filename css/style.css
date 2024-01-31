@@ -133,12 +133,6 @@ img {
 /* tablet: dai 768px in giù */
 /* mobile: dai 480px in giù */
 
-@media screen and (min-width: 768px) {
-    .container {
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
@@ -167,6 +161,12 @@ img {
     }
 
     .why-us .col-left, .why-us .col-right  {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px ) and (max-width: 1160px) {
+    .container {
         width: 100%;
     }
 }
